@@ -4,7 +4,7 @@ void delay(volatile uint32_t count)
 {
     while (count--)
     {
-        __asm__("nop");
+        __asm__("nop"); // add comment
     }
 }
 
