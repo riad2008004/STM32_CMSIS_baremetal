@@ -12,7 +12,7 @@ int main(void) {
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
     while (1) {
-        GPIOC->ODR ^= GPIO_ODR_ODR13; // Toggle LED
+        GPIOC->ODR ^= GPIO_ODR_ODR13; // Toggle LEDD
         delay(500000);
     }
 }
